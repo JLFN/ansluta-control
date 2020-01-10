@@ -42,6 +42,8 @@
   #include <PubSubClient.h>
   //Your MQTT Broker
   const char* mqtt_server = "192.168.0.2";  //enter your mqtt server here
+  const char* mqtt_username = "MQTT USERNAME";  //enter your username here
+  const char* mqtt_password = "MQTTPASS";  //enter your password here
   const char* mqtt_in_topic = "ansluta/light/set";  //modifiy your mqtt topic to your needs
   const char* mqtt_out_topic = "ansluta/light/status";  //modifiy your mqtt topic to your needs
 #endif
