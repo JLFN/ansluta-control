@@ -349,7 +349,7 @@ void MqttReconnect() {
     if(DEBUG){
       Serial.println("Connect to MQTT-Broker");
     }
-    if (client.connect(clientID.c_str())) {
+    if (client.connect(clientID.c_str(), mqtt_username, mqtt_password)) {
       if(DEBUG){
         Serial.print("connected as clientID:");
         Serial.println(clientID);
